@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --indigo: #1E2A78;
+  --indigo-deep: #141B5C;
+  --yellow: #FFC93C;
+  --yellow-soft: #FFE9A8;
+  --cream: #FAF6EC;
+  --cream-light: #FFFCF5;
+  --ink: #1A1A2E;
+  --muted: #6B7280;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--cream);
+    color: var(--ink);
+    font-family: var(--font-jakarta), system-ui, sans-serif;
+    font-feature-settings: "ss01", "ss02", "cv01";
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-fraunces), Georgia, serif;
+    color: var(--indigo);
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  h1 { line-height: 1.05; }
+  h2 { line-height: 1.08; }
+  h3 { line-height: 1.15; }
+
+  *:focus-visible {
+    outline: 2px solid var(--indigo);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--yellow-soft);
+    color: var(--indigo-deep);
+  }
+}
+
+@layer components {
+  /* Signature yellow underline accent — used on a single keyword in major headings */
+  .accent-underline {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .accent-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.08em;
+    height: 3px;
+    background-color: var(--yellow);
+    border-radius: 2px;
+    transform: translateY(2px);
+  }
+
+  /* Card hover yellow accent bar */
+  .card-accent {
+    position: relative;
+    overflow: hidden;
+  }
+  .card-accent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--yellow);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .card-accent:hover::before {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
