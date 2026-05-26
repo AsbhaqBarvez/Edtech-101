@@ -1,11 +1,12 @@
 "use client";
 
 import * as React from "react";
-import { CheckCircle2 } from "lucide-react";
+import { AlertCircle, CheckCircle2 } from "lucide-react";
 import { Input } from "@/components/ui/Input";
 import { Textarea } from "@/components/ui/Textarea";
 import { Select } from "@/components/ui/Select";
 import { Button } from "@/components/ui/Button";
+import { submitContact } from "@/app/actions/contact";
 
 const topics = [
   { value: "support", label: "Product support" },
@@ -17,6 +18,9 @@ const topics = [
 
 export function ContactForm() {
   const [submitted, setSubmitted] = React.useState(false);
+  const [error, setError] = React.useState<string | null>(null);
+  const [pending, startTransition] = React.useTransition();
+  const formRef = React.useRef<HTMLFormElement>(null);
 
   if (submitted) {
     return (
@@ -34,10 +38,21 @@ export function ContactForm() {
 
   return (
     <form
+      ref={formRef}
       className="grid gap-5"
       onSubmit={(e) => {
         e.preventDefault();
-        setSubmitted(true);
+        setError(null);
+        const formData = new FormData(e.currentTarget);
+        startTransition(async () => {
+          const result = await submitContact(formData);
+          if (result.ok) {
+            setSubmitted(true);
+            formRef.current?.reset();
+          } else {
+            setError(result.message ?? "Something went wrong. Please try again.");
+          }
+        });
       }}
     >
       <div className="grid gap-5 sm:grid-cols-2">
@@ -58,12 +73,28 @@ export function ContactForm() {
         placeholder="A few sentences is fine — more is welcome."
         rows={6}
       />
+
+      {error && (
+        <div
+          role="alert"
+          className="flex items-start gap-2 rounded-input border border-red-300 bg-red-50 px-3.5 py-2.5 text-sm text-red-800"
+        >
+          <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" aria-hidden />
+          <span>{error}</span>
+        </div>
+      )}
+
       <div className="flex items-center justify-between gap-3 pt-2">
         <p className="text-xs text-muted">
           By submitting, you agree to our privacy policy.
         </p>
-        <Button type="submit" variant="primary-yellow" size="md">
-          Send message
+        <Button
+          type="submit"
+          variant="primary-yellow"
+          size="md"
+          disabled={pending}
+        >
+          {pending ? "Sending..." : "Send message"}
         </Button>
       </div>
     </form>
