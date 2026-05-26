@@ -9,27 +9,27 @@ import { Mail, MessageSquare, Briefcase } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Lumen — for support, partnerships, press, or to apply to teach."
+    "Get in touch with MantranaEdutech — for support, partnerships, press, or to apply to teach."
 };
 
 const channels = [
   {
     icon: MessageSquare,
     title: "Support",
-    body: "Logged in to Lumen? The fastest path is the help widget inside your dashboard.",
-    email: "help@lumen.example.com"
+    body: "Logged in to MantranaEdutech? The fastest path is the help widget inside your dashboard.",
+    email: "help@mantrana.in"
   },
   {
     icon: Briefcase,
     title: "Partnerships & press",
     body: "Working on something we should know about? We read every email.",
-    email: "hello@lumen.example.com"
+    email: "hello@mantrana.in"
   },
   {
     icon: Mail,
     title: "Instructor applications",
     body: "Reviewed by our content team. We respond to every application within two weeks.",
-    email: "teach@lumen.example.com"
+    email: "teach@mantrana.in"
   }
 ];
 

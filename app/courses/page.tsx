@@ -7,7 +7,7 @@ import { AccentUnderline } from "@/components/ui/Underline";
 export const metadata: Metadata = {
   title: "Courses",
   description:
-    "Browse the full Lumen catalog — curated tracks across data science, design, business, engineering, languages, and personal growth."
+    "Browse the full MantranaEdutech catalog — curated tracks across data science, design, business, engineering, languages, and personal growth."
 };
 
 export default function CoursesPage() {

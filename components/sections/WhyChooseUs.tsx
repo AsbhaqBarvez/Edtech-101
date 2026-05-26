@@ -67,10 +67,10 @@ export function WhyChooseUs() {
           </div>
           <div className="mt-4 rounded-card border border-indigo/10 bg-indigo p-7 text-cream">
             <p className="font-display text-2xl font-bold leading-snug text-cream">
-              "Six months in and I've shipped two ML models into production."
+              "Six months in and I've shipped two ML models into production at Zomato."
             </p>
             <p className="mt-3 text-sm text-cream/70">
-              Jonas Weber · Software Engineer, Brightline
+              Aditya Verma · Software Engineer, Zomato
             </p>
           </div>
         </FadeUp>

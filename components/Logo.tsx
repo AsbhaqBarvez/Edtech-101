@@ -14,13 +14,13 @@ export function Logo({
     <Link
       href="/"
       className={cn("inline-flex items-center gap-2", color, className)}
-      aria-label="Lumen, home"
+      aria-label="MantranaEdutech, home"
     >
       <span className="relative inline-flex h-7 w-7 items-center justify-center rounded-md bg-indigo">
         <span className={cn("h-2.5 w-2.5 rounded-full", dot)} />
       </span>
-      <span className="font-display text-xl font-extrabold tracking-tight">
-        Lumen
+      <span className="font-display text-lg font-extrabold tracking-tight sm:text-xl">
+        MantranaEdutech
       </span>
     </Link>
   );

@@ -78,7 +78,7 @@ export default function PricingPage() {
                           plan.highlight ? "text-cream" : "text-indigo"
                         )}
                       >
-                        {plan.price === 0 ? "$0" : formatPrice(plan.price)}
+                        {plan.price === 0 ? "₹0" : formatPrice(plan.price)}
                       </span>
                       <span
                         className={cn(

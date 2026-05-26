@@ -120,7 +120,7 @@ function HeroComposition() {
             Applied Machine Learning with Python
           </h3>
           <p className="mt-1 text-sm text-muted">
-            Dr. Hannah Okafor · 42 hours
+            Dr. Aarti Krishnan · 42 hours
           </p>
           <div className="mt-3 flex items-center gap-3 text-sm">
             <span className="inline-flex items-center gap-1">
@@ -129,7 +129,7 @@ function HeroComposition() {
               <span className="text-muted">(3.1k)</span>
             </span>
             <span className="text-indigo">·</span>
-            <span className="font-semibold text-indigo">$89</span>
+            <span className="font-semibold text-indigo">₹4,499</span>
           </div>
           <div className="mt-4 h-1.5 w-full overflow-hidden rounded-full bg-muted/15">
             <div className="h-full w-2/3 rounded-full bg-yellow" />

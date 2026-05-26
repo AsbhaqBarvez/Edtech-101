@@ -1,6 +1,6 @@
-# Lumen — Edtech marketing site
+# MantranaEdutech — Marketing site
 
-A production-grade marketing website for a modern edtech platform, built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion.
+A production-grade marketing website for **MantranaEdutech**, an India-first learning platform, built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Getting started
 

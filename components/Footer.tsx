@@ -50,8 +50,8 @@ export function Footer() {
           <div className="md:col-span-4">
             <Logo tone="cream" />
             <p className="mt-5 max-w-xs text-[15px] leading-relaxed text-cream/70">
-              A learning platform built around the courses, instructors, and
-              quiet craft that actually change careers.
+              An India-first learning platform built around the courses,
+              instructors, and quiet craft that actually change careers.
             </p>
 
             <div className="mt-8">
@@ -83,7 +83,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col items-start justify-between gap-4 border-t border-cream/10 py-6 text-sm text-cream/60 md:flex-row md:items-center">
-          <div>© {new Date().getFullYear()} Lumen Learning, Inc. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} MantranaEdutech Learning India Pvt. Ltd. All rights reserved.</div>
           <div className="flex items-center gap-5">
             <Link href="/" className="hover:text-yellow">Terms</Link>
             <Link href="/" className="hover:text-yellow">Privacy</Link>

@@ -48,7 +48,7 @@ export const categories: Category[] = [
   {
     slug: "languages",
     title: "Languages",
-    description: "Speak and write with confidence in eight languages.",
+    description: "Communicate with confidence — in English and four Indian languages.",
     courseCount: 54,
     icon: Languages
   },
@@ -86,13 +86,13 @@ export const courses: Course[] = [
     title: "Applied Machine Learning with Python",
     category: "Data Science",
     categorySlug: "data-science",
-    instructor: "Dr. Hannah Okafor",
-    instructorTitle: "Principal Data Scientist, Northwind Labs",
+    instructor: "Dr. Aarti Krishnan",
+    instructorTitle: "Principal Data Scientist, Razorpay",
     rating: 4.9,
     reviews: 3142,
     durationHours: 42,
     level: "Intermediate",
-    price: 89,
+    price: 4499,
     thumbnail:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -117,13 +117,13 @@ export const courses: Course[] = [
     title: "Product Design Fundamentals",
     category: "Design",
     categorySlug: "design",
-    instructor: "Marco Bellucci",
-    instructorTitle: "Design Lead, Linear",
+    instructor: "Aditya Sharma",
+    instructorTitle: "Design Lead, CRED",
     rating: 4.8,
     reviews: 2210,
     durationHours: 28,
     level: "Beginner",
-    price: 59,
+    price: 2999,
     thumbnail:
       "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -148,12 +148,12 @@ export const courses: Course[] = [
     category: "Engineering",
     categorySlug: "engineering",
     instructor: "Priya Raman",
-    instructorTitle: "Staff Engineer, Vercel",
+    instructorTitle: "Staff Engineer, Flipkart",
     rating: 4.9,
     reviews: 4080,
     durationHours: 22,
     level: "Intermediate",
-    price: 79,
+    price: 3999,
     thumbnail:
       "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -177,13 +177,13 @@ export const courses: Course[] = [
     title: "Leading Without Authority",
     category: "Business",
     categorySlug: "business",
-    instructor: "Ezra Whitfield",
-    instructorTitle: "Former VP Operations, Asana",
+    instructor: "Rohan Mehta",
+    instructorTitle: "Former VP Operations, Zerodha",
     rating: 4.7,
     reviews: 1854,
     durationHours: 14,
     level: "Beginner",
-    price: 49,
+    price: 2499,
     thumbnail:
       "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -203,47 +203,47 @@ export const courses: Course[] = [
     tags: ["Leadership", "Communication", "Cross-functional"]
   },
   {
-    slug: "spanish-for-real-conversations",
-    title: "Spanish for Real Conversations",
+    slug: "english-for-indian-professionals",
+    title: "Conversational English for Indian Professionals",
     category: "Languages",
     categorySlug: "languages",
-    instructor: "Lucía Fernández",
-    instructorTitle: "Author, Hablar Sin Miedo",
+    instructor: "Suman Iyer",
+    instructorTitle: "Author, Speak with Confidence",
     rating: 4.8,
     reviews: 2670,
     durationHours: 32,
     level: "Beginner",
-    price: 39,
+    price: 1999,
     thumbnail:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
     summary:
-      "A spoken-first Spanish course built around the conversations you'll actually have — ordering, traveling, working, and making friends.",
+      "A spoken-first English course built around the conversations Indian professionals actually have — at standups, in client calls, in interviews, and at networking events.",
     whatYoullLearn: [
-      "Hold a natural conversation from week three",
-      "Move between past, present and future fluidly",
-      "Train your ear with real accents",
-      "Build vocabulary that survives the moment"
+      "Hold confident conversations at work from week three",
+      "Speak with clear tone and pace in client calls",
+      "Train your ear with global business accents",
+      "Build vocabulary you'll actually use in standups"
     ],
     modules: [
       { title: "Sounds and rhythm", lessons: 8, minutes: 80 },
-      { title: "Everyday conversation", lessons: 12, minutes: 144 },
-      { title: "Talking about time", lessons: 9, minutes: 108 },
-      { title: "Travel and work", lessons: 7, minutes: 84 }
+      { title: "Everyday workplace conversation", lessons: 12, minutes: 144 },
+      { title: "Interviews and presentations", lessons: 9, minutes: 108 },
+      { title: "Client and stakeholder calls", lessons: 7, minutes: 84 }
     ],
-    tags: ["Spanish", "Conversation", "A1–B1"]
+    tags: ["Spoken English", "Workplace", "B1–C1"]
   },
   {
     slug: "writing-with-clarity",
     title: "Writing with Clarity",
     category: "Personal Growth",
     categorySlug: "personal-growth",
-    instructor: "Naomi Park",
-    instructorTitle: "Senior Editor, The Atlantic",
+    instructor: "Ananya Pillai",
+    instructorTitle: "Senior Editor, The Ken",
     rating: 4.9,
     reviews: 1920,
     durationHours: 12,
     level: "Beginner",
-    price: 39,
+    price: 1999,
     thumbnail:
       "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -267,13 +267,13 @@ export const courses: Course[] = [
     title: "Data Visualization in D3",
     category: "Data Science",
     categorySlug: "data-science",
-    instructor: "Tomás Andrade",
-    instructorTitle: "Data Viz Engineer, The Pudding",
+    instructor: "Karthik Subramanian",
+    instructorTitle: "Data Viz Engineer, IndiaSpend",
     rating: 4.7,
     reviews: 980,
     durationHours: 18,
     level: "Intermediate",
-    price: 69,
+    price: 3499,
     thumbnail:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -297,13 +297,13 @@ export const courses: Course[] = [
     title: "Interviewing Engineers Well",
     category: "Business",
     categorySlug: "business",
-    instructor: "Devon Mitchell",
-    instructorTitle: "Engineering Director, Stripe",
+    instructor: "Arjun Kapoor",
+    instructorTitle: "Engineering Director, Swiggy",
     rating: 4.8,
     reviews: 1340,
     durationHours: 9,
     level: "Intermediate",
-    price: 49,
+    price: 2499,
     thumbnail:
       "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -325,12 +325,12 @@ export const courses: Course[] = [
 ];
 
 export const trustedBy = [
-  "Northwind",
-  "Acme University",
-  "Helio",
-  "Brightline",
-  "Atlas Co.",
-  "Meridian"
+  "IIT Bombay",
+  "IIM Bangalore",
+  "Razorpay",
+  "Flipkart",
+  "Swiggy",
+  "Zerodha"
 ];
 
 export type Testimonial = {
@@ -344,22 +344,22 @@ export const testimonials: Testimonial[] = [
   {
     quote:
       "I'd tried three other platforms before this. The difference is the editing — every lesson respects your time and ships you forward.",
-    name: "Amara Singh",
-    role: "Product Manager, Helio",
+    name: "Ananya Iyer",
+    role: "Product Manager, PhonePe",
     avatar: "https://i.pravatar.cc/120?img=47"
   },
   {
     quote:
-      "Six months in and I've shipped two ML models into production. The instructors actually answer questions like working engineers.",
-    name: "Jonas Weber",
-    role: "Software Engineer, Brightline",
+      "Six months in and I've shipped two ML models into production at Zomato. The instructors actually answer questions like working engineers.",
+    name: "Aditya Verma",
+    role: "Software Engineer, Zomato",
     avatar: "https://i.pravatar.cc/120?img=12"
   },
   {
     quote:
-      "Our entire design team is on the platform now. We've replaced three internal training programs with three of their courses.",
-    name: "Renata Ortiz",
-    role: "Head of Design, Atlas Co.",
+      "Our entire design team is on the platform now. We've replaced three internal training programmes with three of their courses.",
+    name: "Ritika Choudhary",
+    role: "Head of Design, Meesho",
     avatar: "https://i.pravatar.cc/120?img=32"
   }
 ];
@@ -369,7 +369,7 @@ export type FAQItem = { q: string; a: string };
 export const faqs: FAQItem[] = [
   {
     q: "Is there a free tier?",
-    a: "Yes. The Free plan gives you full access to a curated set of introductory courses and limited access to advanced material. No credit card required."
+    a: "Yes. The Free plan gives you full access to a curated set of introductory courses and limited access to advanced material. No credit card or UPI required."
   },
   {
     q: "How long do I have access to courses I purchase?",
@@ -378,6 +378,10 @@ export const faqs: FAQItem[] = [
   {
     q: "Do you issue certificates?",
     a: "Pro and Teams plans include verified certificates of completion that you can share on LinkedIn, in PDF, or via a public link."
+  },
+  {
+    q: "What payment options do you support?",
+    a: "UPI, all major Indian credit and debit cards, net banking, and EMI options on Pro and Teams plans. International cards are supported for learners outside India."
   },
   {
     q: "Can my team use one shared account?",
@@ -389,7 +393,7 @@ export const faqs: FAQItem[] = [
   },
   {
     q: "Do you support offline learning?",
-    a: "Yes. The mobile apps support downloading lessons for offline viewing, including subtitles and exercises."
+    a: "Yes. The mobile apps support downloading lessons for offline viewing, including subtitles and exercises — useful when you're commuting in low-network conditions."
   }
 ];
 
@@ -419,7 +423,7 @@ export const pricingPlans: PricingPlan[] = [
   },
   {
     name: "Pro",
-    price: 18,
+    price: 999,
     cadence: "per month, billed yearly",
     description: "Unlimited access to the full catalog and verified certificates.",
     features: [
@@ -465,7 +469,7 @@ export const blogPosts: BlogPost[] = [
     title: "How to actually finish the course you started",
     excerpt:
       "Most learners drop off in week three. The reason isn't motivation — it's the absence of a structure. Here's the one we recommend.",
-    author: "Naomi Park",
+    author: "Ananya Pillai",
     date: "May 14, 2026",
     readMinutes: 6,
     category: "Learning",
@@ -477,7 +481,7 @@ export const blogPosts: BlogPost[] = [
     title: "What we look for in an instructor",
     excerpt:
       "We turn down nine in ten instructor applications. Here's the bar — and why we think it's worth holding.",
-    author: "Devon Mitchell",
+    author: "Arjun Kapoor",
     date: "April 28, 2026",
     readMinutes: 8,
     category: "Inside",
@@ -489,7 +493,7 @@ export const blogPosts: BlogPost[] = [
     title: "The quiet redesign of our course player",
     excerpt:
       "We shipped a new player last month. No press release — just two months of small, deliberate changes. Here's what we learned.",
-    author: "Marco Bellucci",
+    author: "Aditya Sharma",
     date: "April 9, 2026",
     readMinutes: 7,
     category: "Craft",
@@ -501,7 +505,7 @@ export const blogPosts: BlogPost[] = [
     title: "Data science without the hype",
     excerpt:
       "Most teams don't need a model. They need clean numbers, honest dashboards, and someone willing to read them.",
-    author: "Hannah Okafor",
+    author: "Aarti Krishnan",
     date: "March 22, 2026",
     readMinutes: 9,
     category: "Data",
@@ -513,7 +517,7 @@ export const blogPosts: BlogPost[] = [
     title: "Writing better feedback for learners",
     excerpt:
       "Feedback that lands is short, specific, and kind. We trained our instructor reviewers on a three-part frame — and it's working.",
-    author: "Lucía Fernández",
+    author: "Suman Iyer",
     date: "March 3, 2026",
     readMinutes: 5,
     category: "Teaching",
@@ -524,8 +528,8 @@ export const blogPosts: BlogPost[] = [
     slug: "year-in-review-2025",
     title: "A year in review: 2025",
     excerpt:
-      "Two million learners, 180 countries, and a long list of things we want to do better. Our honest annual letter.",
-    author: "Ezra Whitfield",
+      "Two million learners, 150 Indian cities, and a long list of things we want to do better. Our honest annual letter.",
+    author: "Rohan Mehta",
     date: "January 12, 2026",
     readMinutes: 11,
     category: "Inside",
@@ -537,33 +541,33 @@ export const blogPosts: BlogPost[] = [
 export const stats = [
   { value: "94%", label: "Course completion rate" },
   { value: "2M+", label: "Active learners" },
-  { value: "180+", label: "Countries reached" },
+  { value: "150+", label: "Indian cities reached" },
   { value: "4.8★", label: "Average instructor rating" }
 ];
 
 export const team = [
   {
-    name: "Ezra Whitfield",
+    name: "Rohan Mehta",
     role: "Co-founder & CEO",
-    bio: "Former VP Operations at Asana. Spent fifteen years building learning programs at scale.",
+    bio: "Former VP Operations at Zerodha. Spent fifteen years building learning programmes at scale.",
     avatar: "https://i.pravatar.cc/200?img=68"
   },
   {
-    name: "Naomi Park",
+    name: "Ananya Pillai",
     role: "Co-founder & Head of Content",
-    bio: "Senior Editor at The Atlantic. Believes good teaching is mostly good editing.",
+    bio: "Senior Editor at The Ken. Believes good teaching is mostly good editing.",
     avatar: "https://i.pravatar.cc/200?img=49"
   },
   {
     name: "Priya Raman",
     role: "Chief Technology Officer",
-    bio: "Built developer platforms at Vercel and Stripe. Quietly opinionated about TypeScript.",
+    bio: "Built developer platforms at Flipkart and PhonePe. Quietly opinionated about TypeScript.",
     avatar: "https://i.pravatar.cc/200?img=23"
   },
   {
-    name: "Marco Bellucci",
+    name: "Aditya Sharma",
     role: "Head of Design",
-    bio: "Design lead at Linear. Believes restraint is a feature.",
+    bio: "Design lead at CRED. Believes restraint is a feature.",
     avatar: "https://i.pravatar.cc/200?img=14"
   }
 ];

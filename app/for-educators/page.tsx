@@ -11,7 +11,7 @@ import { FadeUp } from "@/components/ui/FadeUp";
 export const metadata: Metadata = {
   title: "For Educators",
   description:
-    "Teach with Lumen. We work closely with a small number of instructors each year — editing, producing, and promoting their courses with real care."
+    "Teach with MantranaEdutech. We work closely with a small number of instructors each year — editing, producing, and promoting their courses with real care."
 };
 
 const supportPoints = [
@@ -23,7 +23,7 @@ const supportPoints = [
   {
     icon: Users,
     title: "Production we cover",
-    body: "We handle filming, sound, and post-production at our studios in NYC and Lisbon — or remotely with our kit."
+    body: "We handle filming, sound, and post-production at our studios in Bengaluru and Mumbai — or remotely with our kit."
   },
   {
     icon: DollarSign,
@@ -87,7 +87,7 @@ export default function ForEducatorsPage() {
           </h2>
           <p className="mt-4 text-lg text-ink/75">
             We treat teaching like the craft it is. Here's what working with
-            Lumen looks like in practice.
+            MantranaEdutech looks like in practice.
           </p>
         </FadeUp>
 
@@ -147,7 +147,7 @@ export default function ForEducatorsPage() {
                 can."
               </p>
               <p className="mt-5 text-sm text-muted">
-                — Naomi Park, Head of Content
+                — Ananya Pillai, Head of Content
               </p>
             </Card>
           </FadeUp>

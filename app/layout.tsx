@@ -19,36 +19,37 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://lumen.example.com"),
+  metadataBase: new URL("https://mantrana.in"),
   title: {
-    default: "Lumen — Learn the skills that move careers forward",
-    template: "%s — Lumen"
+    default: "MantranaEdutech — Career-defining skills for Indian professionals",
+    template: "%s — MantranaEdutech"
   },
   description:
-    "Lumen is a modern learning platform built around the courses, instructors, and quiet craft that actually change careers.",
+    "MantranaEdutech is an India-first learning platform built around the courses, instructors, and quiet craft that actually change careers.",
   keywords: [
-    "online courses",
-    "learning platform",
+    "online courses India",
+    "learning platform India",
     "edtech",
-    "professional development",
-    "data science",
+    "upskilling",
+    "data science course India",
     "design",
-    "engineering"
+    "engineering",
+    "MantranaEdutech"
   ],
-  authors: [{ name: "Lumen" }],
+  authors: [{ name: "MantranaEdutech" }],
   openGraph: {
-    title: "Lumen — Learn the skills that move careers forward",
+    title: "MantranaEdutech — Career-defining skills for Indian professionals",
     description:
-      "A modern learning platform built around the courses, instructors, and quiet craft that actually change careers.",
+      "An India-first learning platform built around the courses, instructors, and quiet craft that actually change careers.",
     type: "website",
-    locale: "en_US",
-    siteName: "Lumen"
+    locale: "en_IN",
+    siteName: "MantranaEdutech"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lumen — Learn the skills that move careers forward",
+    title: "MantranaEdutech — Career-defining skills for Indian professionals",
     description:
-      "A modern learning platform built around the courses, instructors, and quiet craft that actually change careers."
+      "An India-first learning platform built around the courses, instructors, and quiet craft that actually change careers."
   },
   robots: { index: true, follow: true }
 };

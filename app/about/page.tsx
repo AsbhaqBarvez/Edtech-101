@@ -11,7 +11,7 @@ import { team, stats } from "@/lib/data";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About Lumen — a learning platform built around the courses, instructors, and quiet craft that actually change careers."
+    "About MantranaEdutech — an India-first learning platform built around the courses, instructors, and quiet craft that actually change careers."
 };
 
 const values = [
@@ -49,10 +49,15 @@ export default function AboutPage() {
                 teaching.
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/75">
-                Lumen began in 2019 with one course, three instructors, and a
-                small editing room in Brooklyn. We've grown deliberately — never
-                much faster than we could keep the bar high — and today serve
-                over two million learners in 180 countries.
+                MantranaEdutech — from the Sanskrit{" "}
+                <em className="not-italic font-medium text-indigo-deep">
+                  mantraṇa
+                </em>
+                , meaning counsel — began in 2020 with one course, three
+                instructors, and a small editing room in Indiranagar,
+                Bengaluru. We've grown deliberately, never much faster than we
+                could keep the bar high, and today serve over two million
+                learners across 150+ Indian cities and 60 countries.
               </p>
             </div>
             <div className="lg:col-span-5">
